@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+</head>
+
+<body>
+
+    <div id="main">
+        <h1><img id="logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Circle-icons-music.svg/1024px-Circle-icons-music.svg.png"
+                alt="logo"> Trending Songs Player </h1>
+        <div id="player">
+            <div class="player-container">
+                <div class="player-item">
+                    <div class="boxplay">
+                        <div>
+                            <img id="thumbnail" src="https://i.ytimg.com/vi/dOKQeqGNJwY/maxresdefault.jpg"
+                                alt="SongImage">
+                        </div>
+                        <div id="songd">
+                            <h2 id="songname">Inthandam</h2>
+                        </div>
+                        <audio id="audio" src="songs/Inthandam.mp3" preload="metadata"></audio>
+                        <div id="progress-bar">
+                            <div id="current-progress"></div>
+                        </div>
+                        <div class="time-container">
+                            <span id="current-time">0:00</span>
+                            <span id="max-duration">0:00</span>
+                        </div>
+                        <span>
+                            <img id="options1"
+                                src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-shuffle-512.png"
+                                alt="shuffle">
+                            <img id="options2"
+                                src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_skip_previous_48px-256.png"
+                                alt="previous">
+                            <img id="options3"
+                                src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-play-256.png" alt="play">
+
+                            <img id="options4"
+                                src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_pause_48px-256.png"
+                                alt="pause">
+
+                            <img id="options5"
+                                src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_skip_next_48px-256.png"
+                                alt="next">
+                            <img id="options6"
+                                src="https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/list-256.png" alt="list">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="songslist">
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script src=" script.js"></script>
+
+</html>
