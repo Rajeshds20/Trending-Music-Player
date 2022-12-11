@@ -31,7 +31,7 @@ var currsong = audio.src;
 currsong = currsong.split('/');
 currsong = currsong[currsong.length - 1];
 
-const songlist = ['Inthandam.mp3', 'Samajavaragamana.mp3', 'Khairiyat.mp3', 'Dil_diya_gallan.mp3', 'Namo_namo_ji_shankara.mp3', 'Heat_Waves.mp3', 'Night_Changes.mp3', 'Inthandam.mp3'];
+const songlist = ['Inthandam.mp3', 'Samajavaragamana.mp3', 'Khairiyat.mp3', 'Kesariya.mp3', 'Heat_Waves.mp3', 'Night_Changes.mp3', 'Inthandam.mp3'];
 
 const songdetails = {
     'Inthandam.mp3': {
@@ -52,23 +52,23 @@ const songdetails = {
         movie: 'Chhichhore',
         image: 'https://www.lyricszaade.com/wp-content/uploads/2020/07/khairiyat-chhichhore.jpg'
     },
-
-    'Dil_diya_gallan.mp3': {
-        name: 'Dil Diya Galla',
-        movie: 'Tiger Zinda Hai',
-        image: 'https://i.ytimg.com/vi/MYIWraqKIsU/maxresdefault.jpg'
-    },
-
-    'Namo_namo_ji_shankara.mp3': {
-        name: 'Namo Namo Ji Shankara',
-        movie: 'Kedarnath',
-        image: 'https://www.quirkybyte.com/wp-content/uploads/2021/06/maxresdefault-1-30.jpg'
-    },
-
+    
     'Heat_Waves.mp3': {
         name: 'Heat Waves',
         movie: 'Glass Animals',
         image: 'https://i.ytimg.com/vi/48hULfubFBc/maxresdefault.jpg'
+    },
+    
+    'Kesariya.mp3': {
+        name: 'Kesariya',
+        movie: 'Brahmastra',
+        image: 'https://s.enavabharat.com/wp-content/uploads/2022/07/Kesariya-Brahmastra.jpg'
+    },
+    
+    'Aashiqui_aa_gayi.mp3': {
+        name: 'Aashiqui Aa Gayi',
+        movie: 'Radhe Shyam',
+        image: 'https://bollywoodproduct.in/wp-content/uploads/2021/11/maxresdefault-129-1068x601.jpg'
     },
 
     'Night_Changes.mp3': {
