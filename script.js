@@ -1,6 +1,6 @@
 console.log("Hello World!");
 
-const basepath = "/songs/";
+const basepath = "songs/";
 
 const audio = document.getElementById("audio");
 const thumbnail = document.getElementById("thumbnail");
