@@ -131,10 +131,10 @@ previous.addEventListener("click", () => {
         index = songlist.length - 1;
     }
     audio.src = basepath + songlist[(index = index % songlist.length)];
-    audio.play();
     play.style.display = "none";
     pause.style.display = "inline";
     currsong = songlist[index];
+    audio.play();
     console.log(currsong);
     // console.log(songdetails[currsong]);
     thumbnail.src = songdetails[currsong].image;
