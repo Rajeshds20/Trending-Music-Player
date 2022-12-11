@@ -29,7 +29,7 @@ const songlist = [
     "Inthandam.mp3",
     "Samajavaragamana.mp3",
     "Khairiyat.mp3",
-    "Ashiqui_aa_gayi.mp3",
+    "Aashiqui_aa_gayi.mp3",
     "Heat_Waves.mp3",
     "Night_Changes.mp3",
     "Ranjithame.mp3",
