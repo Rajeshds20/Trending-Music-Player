@@ -71,6 +71,12 @@ const songdetails = {
             "https://s.enavabharat.com/wp-content/uploads/2022/07/Kesariya-Brahmastra.jpg"
     },
 
+    "Aashiqui_aa_gayi.mp3": {
+        name: 'Aashiqui Aa Gayi',
+        movie: 'Radhe Shyam',
+        image: "https://bollywoodproduct.in/wp-content/uploads/2021/11/maxresdefault-129-1068x601.jpg"
+    },
+
     "Heat_Waves.mp3": {
         name: "Heat Waves",
         movie: "Glass Animals",
