@@ -1,6 +1,6 @@
 console.log("Hello World!");
 
-const basepath = "/Trending-Music-Player/songs/";
+const basepath = "Trending-Music-Player/songs/";
 
 const audio = document.getElementById("audio");
 const thumbnail = document.getElementById("thumbnail");
