@@ -1,6 +1,6 @@
 console.log("Hello World!");
 
-const basepath = "Trending-Music-Player/songs/";
+const basepath = "/songs/";
 
 const audio = document.getElementById("audio");
 const thumbnail = document.getElementById("thumbnail");
@@ -29,7 +29,7 @@ const songlist = [
     "Inthandam.mp3",
     "Samajavaragamana.mp3",
     "Khairiyat.mp3",
-    "Aashiqui_aa_gayi.mp3",
+    "Ashiqui_aa_gayi.mp3",
     "Heat_Waves.mp3",
     "Night_Changes.mp3",
     "Ranjithame.mp3",
@@ -48,12 +48,6 @@ const songdetails = {
         movie: "Ala Vaikuntapuramu lo",
         image:
             "https://www.lyricbazar.com/wp-content/uploads/2020/08/samajawaragamana-song.jpg"
-    },
-
-    'Aashiqui_aa_gayi.mp3': {
-        name: 'Aashiqui Aa Gayi',
-        movie: 'Radhe Shyam',
-        image: "https://bollywoodproduct.in/wp-content/uploads/2021/11/maxresdefault-129-1068x601.jpg"
     },
 
     "Ranjithame.mp3": {
