@@ -31,7 +31,7 @@ var currsong = audio.src;
 currsong = currsong.split('/');
 currsong = currsong[currsong.length - 1];
 
-const songlist = ['Inthandam.mp3', 'Samajavaragamana.mp3', 'Khairiyat.mp3', 'Kesariya.mp3', 'Heat_Waves.mp3', 'Night_Changes.mp3', 'Inthandam.mp3'];
+const songlist = ['Inthandam.mp3', 'Samajavaragamana.mp3', 'Khairiyat.mp3', 'Kesariya.mp3', 'Heat_Waves.mp3', 'Night_Changes.mp3'];
 
 const songdetails = {
     'Inthandam.mp3': {
