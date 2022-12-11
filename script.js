@@ -116,6 +116,7 @@ next.addEventListener("click", () => {
     play.style.display = "none";
     pause.style.display = "inline";
     console.log(currsong);
+    console.log(audio.src);
     // console.log(songdetails[currsong]);
     audio.onloadedmetadata = () => {
         maxDuration.innerText = timeFormatter(audio.duration);
