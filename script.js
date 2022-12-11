@@ -107,6 +107,7 @@ pause.addEventListener("click", () => {
 next.addEventListener("click", () => {
     var index = songlist.indexOf(currsong);
     index++;
+    console.log(basepath + songlist[(index = index % songlist.length)]);
     audio.src = basepath + songlist[(index = index % songlist.length)];
     console.log(index, songlist.length);
     currsong = songlist[index];
